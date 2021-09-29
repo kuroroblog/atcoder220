@@ -17,7 +17,7 @@ while True:
     # A以上B以下の倍数が見つかるまで、C = C + Cを繰り返す。(次のCの倍数の値がA以上B以下に含まれるか、確認するため。)
     C += C
 
-# flagがTrueのとき、Cの値を出力する。flagがFalseのとき、-1を出力する。
+# flagがTrueのとき、現在のCの値を出力する。flagがFalseのとき、-1を出力する。
 if flag:
     print(C)
 else:
